@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .contactMeOuterBody {
-        max-width: 700px;
+    max-width: 700px;
     margin: auto;
     padding: 25px;
 }
@@ -114,5 +114,34 @@ h1,h2,h3,h4,h5 {
 
 .peakLogo {
     text-align: center;
+}
+
+.peakOuterBody {
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    background-color: skyblue
+}
+
+.peakHeader {
+    background-color: powderblue;
+    color: beige;
+    
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    
+    width:400px;
+    
+    padding: 5px;
+    margin: auto;
+}
+
+.peakBody {
+    color: mintcream;
+    background-color: deepskyblue;
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
 }
 
