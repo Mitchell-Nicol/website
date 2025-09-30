@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body {
+    color: #523B18;
+    background-color: #96805E;
+    justify-content: center;
+}
+
+h1,h2,h3,h4,h5 {
+    text-align: center;
+}
+
+.banner {
+    background-color: #C0B198;
+    
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    
+    width: 80%;
+    
+    padding: 16px;
+    margin: auto;
+}
+
+.indexBody {
+    text-align: center;
+}
+
+.aboutMeOuterBody{
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+}
+
+.aboutMeHeader {
+    background-color: #C0B198;
+    
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    
+    width: 80%;
+    
+    padding: 16px;
+    margin: auto;
+}
+
+.cotlHeader{
+    background-color: ghostwhite;
+    
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    
+    width:400px;
+    
+    padding: 5px;
+    margin: auto;
+    
+}
+
+.cotlMainBody {
+    color: #CD282D;
+    background-color: whitesmoke;
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+}
+
+.cotlOuterBody {
+    background-color: ghostwhite;
+}
+
+.botwHeader{
+    background-color: #B7A166;
+    color: beige;
+    
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    
+    width:400px;
+    
+    padding: 5px;
+    margin: auto;
+}
+
+.botwMainBody {
+    color: saddlebrown;
+    background-color: skyblue;
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+}
+
+.botwOuterBody {
+    background-color: beige;
+}
+
+.contactMeOuterBody {
+        max-width: 700px;
+    margin: auto;
+    padding: 25px;
+}
+
+.contactMeBody {
+    text-align: center;
+}
+
+.peakLogo {
+    text-align: center;
+}
+

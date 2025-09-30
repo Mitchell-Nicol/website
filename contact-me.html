@@ -2,13 +2,18 @@
     <head>
         <meta charset="UTF-8" />
         <title>Contact Me</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
-    <body>
-        <p><strong>Please keep in mind this is UNFINISHED and your input 
-            WILL NOT be sent to me. This is a proof of concept but I do 
-            not have a server to send these to. If you would like to send 
-            feedback please email me at the email on my about me. 
-            Thank you!</strong></p>
+    <body class="contactMeOuterBody">
+        <div class=contactMeBody>
+        <p>
+            <strong
+                >Please keep in mind this is UNFINISHED and your input WILL NOT be sent to me. This is a proof of
+                concept but I do not have a server to send these to. If you would like to send feedback please email me
+                at the email on my about me. Thank you!</strong
+            >
+        </p>
+        </div>
         <form>
             <label for="name">Enter your name:</label>
             <br />
@@ -17,7 +22,7 @@
             <input type="submit" value="Submit" />
             <br />
             <br />
-            
+
             <label for="feedback">Please give me your feedback:</label>
             <br />
             <textarea id="feedback" rows="10" cols="50"></textarea>
